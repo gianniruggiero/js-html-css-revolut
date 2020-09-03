@@ -189,3 +189,9 @@ header {
 #personale:hover {
   color: #a8aeb4;
 }
+
+.fa-angle-down {
+  font-size: 12px;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+}
