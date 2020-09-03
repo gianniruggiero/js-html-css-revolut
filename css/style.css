@@ -90,3 +90,31 @@ header {
   text-decoration: none;
   color: #a8aeb4;
 }
+
+.drop_menu {
+  display: relative;
+}
+
+.menu_panel {
+  display: none;
+  padding: 0 20px;
+  position: absolute;
+  top: 65px;
+  left: 700px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px lightgrey solid;
+}
+
+.menu_panel li {
+  list-style: none;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.menu_panel li:last-child {
+  list-style: none;
+  padding-bottom: 20px;
+  text-align: left;
+}
