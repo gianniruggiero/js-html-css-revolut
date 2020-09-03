@@ -6,4 +6,87 @@
 
 body {
   background-color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  font-size: 14px;
+  color: #a8aeb4;
+  font-weight: 500;
+}
+
+.col_black {
+  color: #000;
+}
+
+.wrap_header {
+  display: flex;
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header_left {
+  /* background-color: lightyellow; */
+  height: 100%;
+  width: 30%;
+}
+
+.header_center {
+  /* background-color: cyan; */
+  height: 100%;
+  width: 55%;
+}
+
+.header_right {
+  /* background-color: lightyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 15%;
+}
+
+.btn {
+  background-color: #eb008d;
+  color: #fff;
+  width: 130px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 400;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.list_inline{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.justify_content_flex-end {
+  justify-content: flex-end;
+}
+
+.list_inline li {
+  list-style: none;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.list_inline li a {
+  text-decoration: none;
+  color: #a8aeb4;
 }
