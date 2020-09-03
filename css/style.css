@@ -91,6 +91,10 @@ header {
   color: #a8aeb4;
 }
 
+.list_inline li a:hover {
+  color: #000;
+}
+
 .drop_menu {
   display: relative;
 }
