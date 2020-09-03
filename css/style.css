@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -13,12 +13,28 @@ header {
   background-color: white;
   height: 80px;
   font-size: 14px;
-  color: #a8aeb4;
   font-weight: 500;
+  box-shadow: 2px 2px 40px grey;
+}
+
+.pdt_10 {
+  padding-top: 10px;
+}
+
+.pdl_10 {
+  padding-left: 10px;
 }
 
 .col_black {
   color: #000;
+}
+
+.col_red {
+  color: #000;
+}
+
+.col_grey {
+  color: #a8aeb4;
 }
 
 .wrap_header {
@@ -39,6 +55,7 @@ header {
   /* background-color: cyan; */
   height: 100%;
   width: 55%;
+  color: #a8aeb4;
 }
 
 .header_right {
@@ -59,11 +76,18 @@ header {
   text-align: center;
   border-radius: 30px;
   font-weight: 400;
+  transition: all 0.3s;
 }
 
 .btn a {
   text-decoration: none;
   color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  /* transform: scale(1.05);  */
+  cursor: pointer;
 }
 
 .logo {
@@ -82,17 +106,48 @@ header {
 
 .list_inline li {
   list-style: none;
+}
+
+.header_left .list_inline li {
   padding: 0 10px;
   text-align: center;
 }
 
-.list_inline li a {
+.header_left .list_inline li a {
+  text-decoration: none;
+  height: 100%;
+}
+
+.header_center .list_inline li a {
   text-decoration: none;
   color: #a8aeb4;
+  height: 100%;
+}
+
+.header_center .list_inline li{
+  padding: 0 10px;
+  height: 40px;
+}
+
+.header_center .list_inline li a{
+  display: inline-block;
+  line-height: 40px;
+  height: 100%;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .list_inline li a:hover {
   color: #000;
+}
+
+.list_inline li a.no_hover:hover {
+  color: lightgrey;
+  cursor: default;
+}
+
+.list_inline li a.no_hover {
+  color: lightgrey;
 }
 
 .drop_menu {
@@ -101,23 +156,36 @@ header {
 
 .menu_panel {
   display: none;
-  padding: 0 20px;
+  padding: 10px;
   position: absolute;
-  top: 65px;
+  top: 58px;
+  transform:translateX(-10%);
   text-align: left;
   background-color: #fff;
-  border-radius: 5px;
-  border: 1px lightgrey solid;
+  border-radius: 10px;
+  border: 1px white solid;
+  box-shadow: 5px 5px 25px lightgrey;
 }
 
 .menu_panel li {
   list-style: none;
-  padding-top: 20px;
+  /* padding-bottom: 10px; */
   text-align: left;
 }
 
-.menu_panel li:last-child {
-  list-style: none;
-  padding-bottom: 20px;
-  text-align: left;
+.lbl_new {
+  position: absolute;
+  color: #eb008d;
+  font-size: 10px;
+  margin-left: 2px;
+  transform: translate(-45px, 5px);
+}
+
+.links_off {
+  color: lightgrey;
+  padding-left: 20px;
+}
+
+#personale:hover {
+  color: #a8aeb4;
 }
