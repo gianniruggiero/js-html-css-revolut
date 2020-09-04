@@ -1,7 +1,4 @@
-// $(".drop_menu").click (
-//   function () {
-//     $(this).children(".menu_panel").toggle();
-// })
+$(document).ready(function() {
 
 $(".drop_menu").hover(
   function () {
@@ -12,6 +9,11 @@ $(".drop_menu").hover(
     $(this).children(".menu_panel").hide();
   }
 );
+
+// $(".drop_menu").click (
+//   function () {
+//     $(this).children(".menu_panel").toggle();
+// })
 
 // $(".drop_menu").hover(
 //   function () {
@@ -46,3 +48,5 @@ $(".drop_menu").hover(
 //   function () {
 //     $(this).children(".menu_panel").show();
 // })
+
+});
